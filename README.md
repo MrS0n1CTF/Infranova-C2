@@ -1,13 +1,19 @@
-Infranova C2 Framework
-​The Next Evolution of Hybrid Command & Control Infrastructure
-​Infranova is a high-performance, closed-source architecture designed for complex remote orchestration and cognitive telemetry. Developed by Mr-SoniCTF, this framework leverages a decentralized relay mechanism to ensure maximum operational security and persistence across heterogeneous environments.
+# Infranova C2 Framework
+### *The Next Evolution of Hybrid Command & Control Infrastructure*
 
-​🛡️ Tactical Specifications
-​Omni-Platform Compatibility: Engineered for seamless execution on NT-based systems (Windows), POSIX-compliant environments (Linux), and Arm-based mobile runtimes (Android/Termux).
-​Centralized Neural Dashboard: A sophisticated, real-time command interface featuring geospatial node mapping and low-latency data exfiltration streams.
-​Advanced Evasion Logic: Utilizes proprietary tunneling protocols to achieve Firewall & IDS/IPS circumvention, maintaining a stealthy footprint within the target network.
-​Persistent Data Integrity: Integrated with a localized, high-speed relational database for secure state management and Forensic Traceability.
-​Low-Level Resource Management: Optimized kernel-space and user-space interaction for minimal CPU/RAM overhead during long-term deployment.
+Infranova is a high-performance, **closed-source architecture** designed for complex remote orchestration and cognitive telemetry. Developed by **Mr-S0n1CTF**, this framework leverages a decentralized relay mechanism to ensure maximum operational security and persistence across heterogeneous environments.
+
+---
+
+### 🛡️ Tactical Specifications
+
+* **Omni-Platform Compatibility:** Engineered for seamless execution on NT-based systems (Windows), POSIX-compliant environments (Linux), and Arm-based mobile runtimes (Android/Termux).
+* **Centralized Neural Dashboard:** A sophisticated, real-time command interface featuring geospatial node mapping and low-latency data exfiltration streams.
+* **Advanced Evasion Logic:** Utilizes proprietary tunneling protocols to achieve Firewall & IDS/IPS circumvention, maintaining a stealthy footprint within the target network.
+* **Persistent Data Integrity:** Integrated with a localized, high-speed relational database for secure state management and Forensic Traceability.
+* **Low-Level Resource Management:** Optimized kernel-space and user-space interaction for minimal CPU/RAM overhead during long-term deployment.
+
+---
 
 ### 🖥️ Operational Showcase
 *Deployment visuals and architectural overview:*
@@ -24,7 +30,10 @@ Infranova C2 Framework
 ![Execution Logs](assets/IMG_٢٠٢٦٠٣١٢_٢١٤٨١٩.jpg)
 *Live telemetry stream and backend architectural logs.*
 
-​⚠️ Legal Mandate & Integrity
-​This framework is strictly for Educational Research and Authorized Red Teaming only. Mr-SoniCTF holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
-​Lead Architect: Mr-SoniCTF
-Origin: Cairo, Egypt. 🇪🇬
+---
+
+### ⚠️ Legal Mandate & Integrity
+This framework is strictly for **Educational Research** and **Authorized Red Teaming** only. **Mr-S0n1CTF** holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
+
+> **Lead Architect:** [Mr-S0n1CTF](https://github.com/MrS0n1CTF)  
+> **Origin:** Cairo, Egypt. 🇪🇬
