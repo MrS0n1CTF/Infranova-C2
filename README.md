@@ -166,7 +166,7 @@ The dashboard provides real-time visualization of all connected agents with geog
 | 20:04:07 | `nmap -sV 192.168.1.2 -T4` | Port 5000 open (Werkzeug) | 12.82s |
 
 **Nmap scan result:**
----
+```
 Starting Nmap 7.98 at 2026-04-08 14:04 EDT
 Host is up (0.0079s latency).
 PORT     STATE SERVICE    VERSION
