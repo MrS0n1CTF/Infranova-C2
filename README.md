@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 **الجزء الأول: نظرة عامة وأهداف المشروع**
+## 📌 **Part 1: Overview & Project Objectives**
 
 ---
 
@@ -19,6 +19,26 @@
 **Infranova C2** is an advanced **Command & Control framework** designed for remote orchestration and agent management. Developed by **Mr-S0n1CTF** as a graduation project, this framework provides a real-time dashboard, cross-platform agent communication, and encrypted command channels for red team operations and cybersecurity research.
 
 Built with **Python**, **Flask**, **SocketIO**, and **Telegram API**, Infranova C2 is modular, extensible, and easy to deploy.
+
+**Project Creator & Lead Architect:** Mr-S0n1CTF (Youssef Ayman)  
+**Institution:** Helwan International Technological University  
+**Department:** Cybersecurity  
+**Academic Year:** 2025-2026
+
+---
+
+### Intellectual Property Statement
+
+This project, **Infranova C2 Framework**, including all source code, documentation, design, and associated assets, is the original work of **Jou (Mr-S0n1CTF)**. The concept, architecture, and implementation were developed solely by the project creator as part of a graduation project in the field of cybersecurity.
+
+**Copyright Notice:**  
+© 2026 Youssef Ayman (Mr-S0n1CTF). All rights reserved.
+
+This work is protected under intellectual property laws. Any unauthorized use, reproduction, or distribution of this framework or its components without explicit permission from the author is prohibited.
+
+**Author Contact:**  
+- GitHub: [MrS0n1CTF](https://github.com/MrS0n1CTF)
+- Location: Cairo, Egypt
 
 ---
 
@@ -49,7 +69,7 @@ Built with **Python**, **Flask**, **SocketIO**, and **Telegram API**, Infranova 
 
 ---
 
-## 🖥️ **الجزء الثاني: العمارة التقنية والعرض التشغيلي**
+## 🖥️ **Part 2: Technical Architecture & Operational Showcase**
 
 ---
 
@@ -90,10 +110,6 @@ The Infranova agent follows a modular, event-driven design:
 | **Session** | Session tokens and heartbeat tracking |
 | **Transport** | TLS 1.3 (HTTPS) or Telegram API |
 | **Network** | IPv4/IPv6 with optional proxy routing |
-
----
-
-## 🖼️ **الجزء الثالث: المعرض التشغيلي والأمثلة العملية**
 
 ---
 
