@@ -166,3 +166,142 @@ The dashboard provides real-time visualization of all connected agents with geog
 | 20:04:07 | `nmap -sV 192.168.1.2 -T4` | Port 5000 open (Werkzeug) | 12.82s |
 
 **Nmap scan result:**
+---
+Starting Nmap 7.98 at 2026-04-08 14:04 EDT
+Host is up (0.0079s latency).
+PORT     STATE SERVICE    VERSION
+5000/tcp open  http       Werkzeug httpd 3.1.6 (Python 3.13.12)
+MAC Address: **:**:**:**:**:** (Unknown)
+
+
+```
+
+---
+
+## 📂 **Part 3: Repository Structure, Legal & Contact**
+
+---
+
+### Repository Structure
+
+```
+
+Infranova-C2/
+├── agent/               # C2 client (Python)
+├── server/              # C2 dashboard (Flask + SocketIO)
+├── dashboard/           # Frontend assets (HTML, CSS, JS)
+├── payloads/            # Payload generation tools
+├── exploits/            # Exploit scripts (optional)
+├── assets/              # Screenshots
+└── README.md
+
+```
+
+---
+
+### Technology Stack
+
+| Component | Technologies |
+|-----------|--------------|
+| **Backend** | Python, Flask, SocketIO, SQLite |
+| **Frontend** | HTML5, CSS3, JavaScript, Leaflet.js, Chart.js |
+| **Communication** | HTTPS, WebSocket, Telegram Bot API |
+| **Encryption** | AES-256-GCM, TLS 1.3 |
+| **Persistence** | systemd, cron, Windows Scheduled Tasks |
+
+---
+
+### Getting Started
+
+#### Server Installation
+
+```bash
+git clone https://github.com/MrS0n1CTF/Infranova-C2.git
+cd Infranova-C2/server
+pip install -r requirements.txt
+python app.py
+```
+
+Access the dashboard at http://localhost:5000
+
+Agent Installation
+
+```bash
+python client.py --server http://your-c2-server:5000
+```
+
+---
+
+Legal Disclaimer
+
+This framework is strictly for Educational Research and Authorized Red Teaming only.
+
+· Educational Research: Students and researchers may use Infranova C2 to understand C2 architectures and red team operations.
+· Authorized Red Teaming: Professional penetration testers may deploy Infranova C2 within authorized contracts.
+· Prohibited Uses: Any unauthorized, malicious, or illegal use is strictly forbidden.
+
+Mr-S0n1CTF (Youssef Ayman) holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
+
+---
+
+Ownership & Copyright
+
+Project Creator & Lead Architect: Youssef Ayman (Mr-S0n1CTF)
+
+This project was developed as an original graduation project at:
+
+· Institution: Helwan International Technological University
+· Department: Cybersecurity
+· Academic Year: 2025-2026
+
+All source code, documentation, design, and associated assets are the original work of the project creator. Any reproduction or distribution without explicit permission is prohibited.
+
+---
+
+Contact
+
+For collaboration, research inquiries, or support:
+
+· GitHub: MrS0n1CTF
+· Location: Cairo, Egypt
+
+Reporting Issues:
+Use the GitHub Issues tab for bug reports. For security vulnerabilities, please disclose responsibly.
+
+---
+
+Acknowledgments
+
+· MITRE ATT&CK for the framework that guided TTP mapping
+· OpenStreetMap and Leaflet.js for mapping components
+· Telegram for providing the Bot API
+· University supervisors for guidance and support
+
+---
+
+References
+
+1. MITRE ATT&CK Framework – Command & Control (TA0011)
+2. Telegram Bot API Documentation
+3. Flask Framework Documentation
+4. SocketIO Documentation
+5. OWASP – File Upload Bypass Techniques
+6. LSB Steganography – Academic Papers
+7. NFS Security Best Practices
+8. Linux Privilege Escalation Techniques
+
+---
+
+Final Statement
+
+Infranova C2 is the original work of Youssef Ayman (Mr-S0n1CTF). This project represents months of research, development, and testing. It is designed to be an educational and practical tool for understanding modern C2 infrastructures.
+
+Lead Architect & Creator: Mr-S0n1CTF
+Origin: Cairo, Egypt 🇪🇬
+Copyright: © 2026 Youssef Ayman. All rights reserved.
+
+---
+
+Stay curious, stay ethical, and keep learning. 🚀
+
+```
