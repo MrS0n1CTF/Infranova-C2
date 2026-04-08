@@ -246,7 +246,7 @@ Mr-S0n1CTF (Youssef Ayman) holds no responsibility for unauthorized deployment o
 
 Ownership & Copyright
 
-Project Creator & Lead Architect: Youssef Ayman (Mr-S0n1CTF)
+Project Creator & Lead Architect: Jou (Mr-S0n1CTF)
 
 This project was developed as an original graduation project at:
 
