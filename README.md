@@ -240,7 +240,7 @@ This framework is strictly for Educational Research and Authorized Red Teaming o
 · Authorized Red Teaming: Professional penetration testers may deploy Infranova C2 within authorized contracts.
 · Prohibited Uses: Any unauthorized, malicious, or illegal use is strictly forbidden.
 
-Mr-S0n1CTF (Youssef Ayman) holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
+Mr-S0n1CTF (Mr-SonicTF) holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
 
 ---
 
