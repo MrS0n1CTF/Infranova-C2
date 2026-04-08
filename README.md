@@ -148,7 +148,7 @@ The dashboard provides real-time visualization of all connected agents with geog
 | **Pivot Commands** | `pivot ssh`, `pivot rdp` | Launch lateral movement modules |
 | **C2 Control** | `sleep`, `kill`, `reconnect` | Control agent behavior |
 
-![Telemetry and Command Log](assets/1000416464.png)
+![Telemetry and Command Log](assets/IMG_20260408_223600.png)
 
 *The telemetry panel logs every command sent to agents along with execution results.*
 
