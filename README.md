@@ -1,39 +1,152 @@
 # Infranova C2 Framework
-### *The Next Evolution of Hybrid Command & Control Infrastructure*
 
-Infranova is a high-performance, **closed-source architecture** designed for complex remote orchestration and cognitive telemetry. Developed by **Mr-S0n1CTF**, this framework leverages a decentralized relay mechanism to ensure maximum operational security and persistence across heterogeneous environments.
-
----
-
-### 🛡️ Tactical Specifications
-
-* **Omni-Platform Compatibility:** Engineered for seamless execution on NT-based systems (Windows), POSIX-compliant environments (Linux), and Arm-based mobile runtimes (Android/Termux).
-* **Centralized Neural Dashboard:** A sophisticated, real-time command interface featuring geospatial node mapping and low-latency data exfiltration streams.
-* **Advanced Evasion Logic:** Utilizes proprietary tunneling protocols to achieve Firewall & IDS/IPS circumvention, maintaining a stealthy footprint within the target network.
-* **Persistent Data Integrity:** Integrated with a localized, high-speed relational database for secure state management and Forensic Traceability.
-* **Low-Level Resource Management:** Optimized kernel-space and user-space interaction for minimal CPU/RAM overhead during long-term deployment.
+### *Advanced Command & Control Infrastructure for Red Team Operations*
 
 ---
 
-### 🖥️ Operational Showcase
-*Deployment visuals and architectural overview:*
-
-#### [01] Geospatial Node Intelligence
-![Node Mapping](assets/IMG_٢٠٢٦٠٣١٢_٢١٤٥٢٥.jpg)
-*Real-time spatial visualization of active synchronized nodes.*
-
-#### [02] Interactive C2 Nexus (CLI)
-![Nexus CLI](assets/IMG_٢٠٢٦٠٣١٢_٢١٤٩٣٣.jpg)
-*Encrypted interactive command-line interface for granular node manipulation.*
-
-#### [03] Execution & Event Telemetry
-![Execution Logs](assets/IMG_٢٠٢٦٠٣١٢_٢١٤٨١٩.jpg)
-*Live telemetry stream and backend architectural logs.*
+[![Version](https://img.shields.io/badge/version-2.0-blue)](https://github.com/MrS0n1CTF/Infranova-C2)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Android-lightgrey)](https://github.com/MrS0n1CTF/Infranova-C2)
 
 ---
 
-### ⚠️ Legal Mandate & Integrity
-This framework is strictly for **Educational Research** and **Authorized Red Teaming** only. **Mr-S0n1CTF** holds no responsibility for unauthorized deployment or malicious misuse. Usage of Infranova implies adherence to global cybersecurity ethics.
+## 📌 **الجزء الأول: نظرة عامة وأهداف المشروع**
 
-> **Lead Architect:** [Mr-S0n1CTF](https://github.com/MrS0n1CTF)  
-> **Origin:** Cairo, Egypt. 🇪🇬
+---
+
+### Overview
+
+**Infranova C2** is an advanced **Command & Control framework** designed for remote orchestration and agent management. Developed by **Mr-S0n1CTF** as a graduation project, this framework provides a real-time dashboard, cross-platform agent communication, and encrypted command channels for red team operations and cybersecurity research.
+
+Built with **Python**, **Flask**, **SocketIO**, and **Telegram API**, Infranova C2 is modular, extensible, and easy to deploy.
+
+---
+
+### Project Objectives
+
+| # | Objective | Description |
+|---|-----------|-------------|
+| 1 | **Educational Purpose** | Demonstrate modern C2 frameworks for cybersecurity students |
+| 2 | **Red Team Utility** | Provide production-ready C2 for authorized engagements |
+| 3 | **Cross-Platform Support** | Windows, Linux, and Android (Termux) |
+| 4 | **Stealth & Evasion** | Encryption and covert communication channels |
+| 5 | **Operational Security** | Protect operators from forensic analysis |
+| 6 | **Scalability** | Handle multiple concurrent agents efficiently |
+| 7 | **Real-Time Monitoring** | Geospatial mapping and live telemetry |
+| 8 | **Modular Architecture** | Easy extension with custom modules |
+
+---
+
+### Core Capabilities
+
+| Capability | Description |
+|------------|-------------|
+| **Multi-Platform Agent** | Python-based agent running on Windows, Linux, and Android (Termux) |
+| **Real-Time Dashboard** | Geospatial node mapping, live telemetry, and session management |
+| **Encrypted Communication** | HTTPS + AES-256 + optional Telegram C2 channel |
+| **Persistence Support** | systemd (Linux) and scheduled tasks (Windows) |
+| **Modular Architecture** | Easily extendable with custom modules |
+
+---
+
+## 🖥️ **الجزء الثاني: العمارة التقنية والعرض التشغيلي**
+
+---
+
+### Agent Architecture (Client-Side)
+
+The Infranova agent follows a modular, event-driven design:
+
+| Component | Function |
+|-----------|----------|
+| **Heartbeat Scheduler** | Sends periodic "alive" signals to the C2 server (30-60 sec intervals with random jitter) |
+| **Command Executor** | Receives, parses, and executes commands from the C2 server |
+| **Persistence Manager** | Installs agent using systemd (Linux) or Scheduled Tasks (Windows) |
+| **Stealth Wrapper** | Implements process hiding and log cleaning routines |
+| **Payload Loader** | Dynamically fetches and executes additional payload modules |
+| **C2 Channel Manager** | Maintains communication via HTTPS or Telegram fallback |
+
+---
+
+### Server Architecture (C2 Dashboard)
+
+| Component | Function |
+|-----------|----------|
+| **Web Interface** | Responsive dashboard with geospatial maps and telemetry |
+| **REST API / SocketIO** | Handles agent registration and real-time communication |
+| **Database Manager** | SQLite storage for agents, commands, and logs |
+| **Queue Manager** | Asynchronous command queue for offline agents |
+| **Authentication** | API key-based authentication for agents |
+| **C2 Relay Manager** | Bridges commands to Telegram bot for covert channel |
+
+---
+
+### Communication Protocol
+
+| Layer | Protocol |
+|-------|----------|
+| **Application** | JSON-formatted commands and responses |
+| **Presentation** | AES-256-GCM encryption |
+| **Session** | Session tokens and heartbeat tracking |
+| **Transport** | TLS 1.3 (HTTPS) or Telegram API |
+| **Network** | IPv4/IPv6 with optional proxy routing |
+
+---
+
+## 🖼️ **الجزء الثالث: المعرض التشغيلي والأمثلة العملية**
+
+---
+
+### 01 – Geospatial Node Intelligence
+
+The dashboard provides real-time visualization of all connected agents with geographic mapping.
+
+| Metric | Value |
+|--------|-------|
+| **Total Nodes** | 1 |
+| **Active Nodes** | 1 |
+| **Pending Tasks** | 0 |
+
+**Connected Nodes:**
+
+| Hostname | OS | Location | Status |
+|----------|-----|----------|--------|
+| localhost | Android | Egypt | Online |
+| kali | Linux | Egypt | Online |
+
+![Geospatial Dashboard](assets/1000416465.png)
+
+*The dashboard displays active agents, their IP addresses, locations, and a dynamic map interface.*
+
+---
+
+### 02 – Interactive C2 Nexus (CLI & Telemetry)
+
+**Supported command types:**
+
+| Command Type | Example | Description |
+|--------------|---------|-------------|
+| **Native OS Commands** | `whoami`, `ls -lah` | Execute any system command |
+| **Infranova Modules** | `screenshot`, `keylog` | Custom modules for specialized tasks |
+| **File Operations** | `download`, `upload` | Transfer files to/from agent |
+| **Pivot Commands** | `pivot ssh`, `pivot rdp` | Launch lateral movement modules |
+| **C2 Control** | `sleep`, `kill`, `reconnect` | Control agent behavior |
+
+![Telemetry and Command Log](assets/1000416464.png)
+
+*The telemetry panel logs every command sent to agents along with execution results.*
+
+---
+
+### 03 – Execution & Event Telemetry
+
+**Example from operational test:**
+
+| Time | Command | Result | Duration |
+|------|---------|--------|----------|
+| 20:02:48 | `whoami` | kali | 0.12s |
+| 20:03:00 | `ls -lah` | Directory listing (516M total) | 0.45s |
+| 20:03:41 | `pwd` | /home/kali/Desktop | 0.03s |
+| 20:04:07 | `nmap -sV 192.168.1.2 -T4` | Port 5000 open (Werkzeug) | 12.82s |
+
+**Nmap scan result:**
