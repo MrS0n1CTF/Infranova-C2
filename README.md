@@ -20,7 +20,7 @@
 
 Built with **Python**, **Flask**, **SocketIO**, and **Telegram API**, Infranova C2 is modular, extensible, and easy to deploy.
 
-**Project Creator & Lead Architect:** Mr-S0n1CTF (Youssef Ayman)  
+**Project Creator & Lead Architect:** Mr-S0n1CTF
 **Institution:** Helwan International Technological University  
 **Department:** Cybersecurity  
 **Academic Year:** 2025-2026
@@ -32,7 +32,7 @@ Built with **Python**, **Flask**, **SocketIO**, and **Telegram API**, Infranova 
 This project, **Infranova C2 Framework**, including all source code, documentation, design, and associated assets, is the original work of **Jou (Mr-S0n1CTF)**. The concept, architecture, and implementation were developed solely by the project creator as part of a graduation project in the field of cybersecurity.
 
 **Copyright Notice:**  
-© 2026 Youssef Ayman (Mr-S0n1CTF). All rights reserved.
+© 2026 Jou (Mr-S0n1CTF). All rights reserved.
 
 This work is protected under intellectual property laws. Any unauthorized use, reproduction, or distribution of this framework or its components without explicit permission from the author is prohibited.
 
