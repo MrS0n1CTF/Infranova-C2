@@ -130,7 +130,7 @@ The dashboard provides real-time visualization of all connected agents with geog
 | localhost | Android | Egypt | Online |
 | kali | Linux | Egypt | Online |
 
-![Geospatial Dashboard](assets/1000416465.png)
+![Geospatial Dashboard](assets/IMG_20260408_223433.png)
 
 *The dashboard displays active agents, their IP addresses, locations, and a dynamic map interface.*
 
