@@ -294,11 +294,11 @@ References
 
 Final Statement
 
-Infranova C2 is the original work of Youssef Ayman (Mr-S0n1CTF). This project represents months of research, development, and testing. It is designed to be an educational and practical tool for understanding modern C2 infrastructures.
+Infranova C2 is the original work of Mr-S0n1CTF. This project represents months of research, development, and testing. It is designed to be an educational and practical tool for understanding modern C2 infrastructures.
 
 Lead Architect & Creator: Mr-S0n1CTF
 Origin: Cairo, Egypt 🇪🇬
-Copyright: © 2026 Youssef Ayman. All rights reserved.
+Copyright: © 2026 Mr-S0n1CTF. All rights reserved.
 
 ---
 
